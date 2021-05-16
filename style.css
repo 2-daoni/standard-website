@@ -1,0 +1,37 @@
+#wrap {
+}
+
+#header {
+    width: 1000px;
+    height: 100px;
+    background: #2e7d32;
+}
+
+#nav {
+    width: 1000px;
+    height: 100px;
+    background: #388e3c;
+}
+
+#side {
+    float: left;
+    width: 300px;
+    height: 600px;
+    background: #43a047;
+}
+
+#contents {
+    float: left;
+    width: 700px;
+    height: 600px;
+    background: #4caf50;
+}
+
+#footer {
+    float: left;
+    /*side,contents에 float: left 적용시 footer 안보이는 문제 해결 방법 */
+    /*1.float을 똑같이 적용*/
+    width: 1000px;
+    height: 100px;
+    background: #66bb6a;
+}
