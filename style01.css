@@ -1,0 +1,56 @@
+body {
+    background: #c8e6c9;
+}
+
+#wrap {
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* line-height: 100px; -> 문장이 한줄일때  height값과 같은 값을 주면 마치 가운데에 온것처럼 표현가능 */
+
+#header {
+    width: 1000px;
+    height: 100px;
+    line-height: 100px;
+    background: #2e7d32;
+}
+
+#nav {
+    width: 1000px;
+    height: 100px;
+    line-height: 100px;
+    background: #388e3c;
+}
+
+#side {
+    float: left;
+    width: 300px;
+    height: 600px;
+    line-height: 600px;
+    background: #43a047;
+}
+
+#contents {
+    float: left;
+    width: 700px;
+    height: 600px;
+    line-height: 600px;
+    background: #4caf50;
+}
+
+#footer {
+    float: left;
+    /*side,contents에 float: left 적용시 footer 안보이는 문제 해결 방법 */
+    /*1.float을 똑같이 적용 - 가장기본적인 방법이지만 불편해서 잘 사용 안함*/
+
+    width: 1000px;
+    height: 100px;
+    line-height: 100px;
+    background: #66bb6a;
+}
